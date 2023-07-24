@@ -1,6 +1,4 @@
 check = input('Please enter password:\n')
 password = 'esxostanumemlavsovorem'
-if check == password:
-    print('Right')
-else:
-    print('No:(')
+
+checking = print("Right" if check == password  else 'No:')
